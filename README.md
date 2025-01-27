@@ -1,11 +1,11 @@
 # Description
-In this repository I demonstrate how to deploy a machine learning model to an AzureML Managed Endpoint. I developed a deployment script that uses the [AzureML Python SDK]() as well as [Typer]() to create a modern command-line interface for the deployment script. 
+In this repository I demonstrate how to deploy a machine learning model to an AzureML Managed Endpoint. I developed a deployment script that uses the [AzureML Python SDK](https://learn.microsoft.com/en-us/azure/machine-learning/concept-v2?view=azureml-api-2) as well as [Typer](https://typer.tiangolo.com/) to create a modern command-line interface for the deployment script. 
 
 ## Initial challenges
 I initially faced some challenges due to the lack of an environment specification, which is typically packaged together with a machine learning model. Furthermore, the scoring script was not correctly setup. I managed to resolve the issues, but they did reduce the scope of what I intended to achieve.
 
 ## AzureML Managed Endpoints
-The [AzureML]()-suite provides certain capabilities such as the [Model Registry]() and [Managed Endpoints](), which simplify the management and deployment of machine learning models to an Azure cloud environment.
+The [AzureML](https://azure.microsoft.com/en-us/products/machine-learning)-suite provides certain capabilities such as the [Model Registry](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2&tabs=cli) and [Managed Endpoints](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints?view=azureml-api-2), which simplify the management and deployment of machine learning models to an Azure cloud environment.
 
 Specifically this solution offers:
 - CPU-, time- or metric-based auto-scaling rules
