@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: iris-randomforest-model
+path: ../model/model.pkl
+description: A simple random forest model used as an example.
+version: 5

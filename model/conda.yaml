@@ -1,0 +1,9 @@
+name: rf-iris
+dependencies:
+  - python=3.9
+  - joblib
+  - scikit-learn
+  - numpy
+  - pip:
+      - azureml-inference-server-http
+      - inference-schema[numpy-support]

@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: iris-rf
+endpoint_name: sklearn-test-endpoint
+model: azureml:iris-randomforest-model@latest
+code_configuration:
+  code: ../model/
+  scoring_script: score.py
+environment: azureml:iris-environment@latest
+instance_type: Standard_DS1_v2
+instance_count: 1

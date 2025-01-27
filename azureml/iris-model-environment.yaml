@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: iris-environment
+image: mcr.microsoft.com/azureml/curated/sklearn-1.5:latest
+conda_file: ../model/conda.yaml
+version: 4
