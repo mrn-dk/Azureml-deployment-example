@@ -43,9 +43,12 @@ az ml online-deployment create --endpoint sklearn-test-endpoint -f iris-model-de
 ```
 
 In order to setup Python run:
-`python -m venv .venv`
-`python -m pip install --upgrade pip`
-`pip install -r requirements.txt`
+
+```sh
+python -m venv .venv
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
 ## Future work
 While this deployment showcases how to deploy a machine learning model to the cloud, it does not demonstrate best practices in terms of neither MLOps nor DevOps. Therefore I will use this section to reflect about which changes could be made to create a robust and scalable architecture.
